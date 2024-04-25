@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+.custom-img {
+  background-image: url("https://img.freepik.com/premium-photo/blue-set-spring-cleaning-house_111599-16.jpg?w=1060");
 }
