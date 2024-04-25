@@ -13,6 +13,7 @@ const Work = () => {
             layout="responsive"
             width="677"
             height="451"
+            objectFit="cover"
           />
         </div>
         <div className="w-full h-full">
